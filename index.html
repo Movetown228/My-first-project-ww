@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ерхат</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Катонқарағай ауданы</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#section1">Тарау 1</a></li>
+            <li><a href="#section2">Тарау 2</a></li>
+        </ul>
+    </nav>
+
+    <div class="text-block">
+        <h2>Катонқарағай ауылы</h2>
+        <img src="img/koton.png" alt="Катонқарағай">
+    </div>
+
+    <section id="section1">
+        <h2>Тарау 1</h2>
+        <p id="text-block">Катонқарағай ауданы - <strong>Шығыс қазақстан облысының</strong> <em>шығысында орналасқан әкішілік бірлігі.</em>.</p>
+        <p>Аудан батысында <mark>Алтай, Үлкен Нарын </mark> оңтүстігінде Күршім ауданы, Марқакөл аудандарымен, солтүстігінде Ресей Федерациясымен, оңтүстік-шығысында Қытай Халық Республикасымен шектеседі.</p>
+        <p><u>Халқы : 3096 адам</u>, <s>Таулар жоқ</s>.</p>
+   
+        <ul>
+            <li>Тарихы
+                <ul>
+                    <li>1970 жылдың 4 желтоқсаны мен 1997 жылдың 23 наурызы аралығында ауыл Катонқарағай ауданының әкімшілік орталығы болып келді.</li>
+                    <li>1997 жылдың 23 наурызында Катонқарағай мен Үлкен Нарын аудандары біріккеннен кейін аудан орталығы болып Үлкен Нарын ауылы бекітілді.</li>
+                </ul>
+            </li>
+        </ul>
+
+        <ol>
+            <li>Географиялық орны
+                <ol>
+                    <li>Облыс орталығы – Өскемен қаласынан оңтүстік-шығысқа қарай 360 км-дей жерде, Алтай тауларының, Сарымсақты жотасының баурайында орналасқан.</li>
+                    <li>Ресеймен шекаралас аймақ. Ауыл арқылы Үлкен-Нарын — Рахман қайнары автокөлік жолы</li>
+                </ol>
+            </li>
+        </ol>
+    </section>
+
+    <section id="section2">
+        <h2>Тарау 2</h2>
+        <h3>Форма</h3>
+        <form>
+            <label for="username">Аты жөніңіз:</label>
+            <input type="text" id="username" name="username" required placeholder="Введите ваше имя"><br><br>
+            <label for="email">Электронды почтаңыз:</label>
+            <input type="email" id="email" name="email" required placeholder="Введите вашу почту"><br><br>
+            <input type="submit" value="Отправить" class="button">
+        </form>
+
+        <h3>Кесте</h3>
+        <table>
+            <caption><strong>Резорт</strong></caption>
+            <thead>
+                <tr>
+                    <th>Аты</th>
+                    <th>Бағасы</th>
+                    <th>Демалу күні</th>
+                    <th>Тип нөмірі</th>
+                    <th>Удобства</th>
+                    <th>Рейтинг</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">Резорт+</td>
+                    <td rowspan="2">45000тг</td>
+                    <td>10 күн</td>
+                    <td rowspan="2">Люкс</td>
+                    <td>Wi-Fi</td>
+                    <td rowspan="2">4.8/5</td>
+                </tr>
+                <tr>
+                    <td>20 күн</td>
+                    <td>Бассейн, спа</td>
+                </tr>
+                <tr>
+                    <td>Вип</td>
+                    <td>70000тг</td>
+                    <td>20 күн</td>
+                    <td>Полулюкс</td>
+                    <td>Wi-Fi, тренажерный зал</td>
+                    <td>4.5/5</td>
+                </tr>
+                <tr>
+                    <td>Простой</td>
+                    <td>45000тг</td>
+                    <td>7 күн</td>
+                    <td>Стандарт</td>
+                    <td>Wi-Fi</td>
+                    <td>4.0/5</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <footer>
+        <p>2024 Мой сайт</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
